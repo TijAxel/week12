@@ -4,26 +4,45 @@
 ##########################Reviewing somethings
 
 # indexing strings -- slide 4
-my_text = 'this is a text'
-result = my_text  #get the index of the letter a
-print(result)
-
-#get the index of the third letter from the end of the text
-
+# my_text = 'this is a text string '
+# result = my_text  #get the index of the letter a
+# print(result[8])
+# print(result[0:4])
+# #index slicing is when you get a substring from a string you can geta substring by specifying the start and end index of the substring. The start index is inlcusive.
+# #find the word text
+# print(result.find('text'))
+# print(result[10:14])
+# print(result.find('is'))
+# print(result[5:7])
+# # print(result[::-1])
+# #get the last letter of the string
+# print(result[-1])
+# print(result.find('string'))
+# print(result[15:-1])
+# print(result.find('hancock'))
+# #-1 means the substring is not found or it doesnt not exist
+# #get the index of the third letter from the end of the text
+# print(result[-3])
+# print(result[-5])
 # find the index of the letter s
 
 ###slide 5
 # string[start:stop:step]
 #example
-# text = "Hello, World!"
-# print(text[7:12])  # prints "World"
+text = "Hello, World!"
+print(text[7:12])  # prints "World"
 text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 # Get the substring CDE and put in a variable
+substring = text.find('CDE')
+print(substring)
+substring = text[2:5]
 
 #get the first letter all the way to the 4th letter
 
-#get the first letter to the final letter and skip every 3rd letter
+#get the first letter to the last letter
 
+#get the first letter to the final letter and skip every 3rd letter
+print(text[0::3])
 # Built-in methods:
 # Python has a variety of built-in methods to work with substrings.
 
