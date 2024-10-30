@@ -11,7 +11,9 @@ eve=int(vari)
 # Output the result to the console
 even=(eve/2)*2==eve
 print(f"your number is even: {eve==even}")
-div=eve
+div=eve 
+
+-+
 # Problem 2: Number in Range
 # Description:
 # Create a program that checks whether a given number falls within a specified range, such as 10 to 20 (inclusive).2
